@@ -51,7 +51,11 @@ const Pokedex = () => {
           </div>
         </nav>
       </header>
-
+    
+      <div className="pagination-info">
+      {currentPage} out of {totalPages}
+    </div>
+    
       <div className="pagination">
         <button
           disabled={currentPage === 1}
